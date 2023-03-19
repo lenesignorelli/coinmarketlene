@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css'
 
 export default function Cabecalho() {
@@ -7,9 +8,9 @@ export default function Cabecalho() {
             Coin Market
         </span>
         <nav>
-            <a href="1">Cotações</a>
-            <a href="1">Usuários</a>
-            <a href="1">Relatórios</a>
+            <Link to="/">Cotações</Link>
+            <Link to="usuarios">Usuários</Link>
+            <Link to="relatorios">Relatórios</Link>
         </nav>
     </header>
   )
