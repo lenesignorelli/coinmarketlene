@@ -1,12 +1,13 @@
+import dateFormat from 'dateformat';
 import './styles.css';
 
 export default function Rodape() {
 
-    const data = new Date().toISOString();
+    const dataDeHoje = new Date();
 
   return (
     <footer>
-        Data da Última Atualização: 18/03/2023: { data }
+        Data da Última Atualização: {dateFormat(dataDeHoje, "dd/mm/yyyy")}
     </footer>
   )
 }

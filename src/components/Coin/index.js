@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import './styles.css';
 
 //props
-function Coin({ id, nome, preco, variacao}) {
+function Coin({ id, nome, preco, variacao }) {
   return (
     <tr key={id}>
       <td>{id}</td>
