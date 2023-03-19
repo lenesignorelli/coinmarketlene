@@ -2,3 +2,25 @@
     text-align: center;
     color: green;
 }
+
+.relatorio-cartao {
+    border: 1px solid royalblue;
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sp-codigo {
+    font-weight: bold;
+}
+
+.sp-titulo {
+    font-weight: bold;
+    font-size: 1.4rm;
+}
+
+.sp-texto {
+
+}
