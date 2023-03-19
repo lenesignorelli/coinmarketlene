@@ -23,7 +23,7 @@ export default function Cotacoes() {
             {
                 criptos.map(coin => <Coin key={coin.id}
                     id={coin.id} sigla={coin.sigla} nome={coin.nome} preco={coin.preco}
-                    variacao={coin.variacao} simbolo={coin.simbolo} />)
+                    variacao={coin.variacaoPerc} simbolo={coin.simbolo} />)
            }
         </tbody>
     </table>

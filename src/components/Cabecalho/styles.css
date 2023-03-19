@@ -12,3 +12,24 @@
     font-weight: bold;
     letter-spacing: 8px;
 }
+
+.container-cabecalho nav {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-cabecalho nav a {
+    text-decoration: none;
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-cabecalho nav a:link, .container-cabecalho nav a:visited {
+    color: var(--secondary-color);
+}
