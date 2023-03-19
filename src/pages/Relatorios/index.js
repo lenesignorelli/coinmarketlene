@@ -2,8 +2,8 @@ import './styles.css'
 
 export default function Relatorios() {
   return (
-    <div>
-        componente de relatorios
+    <div className='titulo-relatorios'>
+        <h1>componente de relatorios</h1>
     </div>
   )
 }
