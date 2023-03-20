@@ -1,7 +1,15 @@
+import { useEffect, useState } from 'react';
 import Coin from '../../components/Coin';
 import './styles.css';
 
 export default function Cotacoes() {
+    const [criptos, setCriptos] = useState([]);
+    useEffect(() => {
+      fetch('dados.json')
+      .then(resp => resp.json())
+      .then(dados => setCriptos(dados))
+    }, [])
+    
   return (
     <table className='tabela-cotacoes'>
         <thead>
